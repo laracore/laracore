@@ -151,6 +151,9 @@ return [
          * Package Service Providers...
          */
 
+
+         Laracore\Admin\AdminServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
