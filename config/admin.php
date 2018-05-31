@@ -1,8 +1,11 @@
 <?php
 
 return [
-    // 后台的 URI 入口
-    'uri' => 'admin',
+    // 模块名称
+    'name' => 'admin',
+
+    // 后台的 URI 入口 必须以 / 开头
+    'uri' => '/admin',
 
     // 后台专属域名，没有的话可以留空
     'domain' => '',
@@ -11,5 +14,5 @@ return [
     'title' => env('APP_NAME', 'Laravel'),
 
     // 模型配置信息文件存放目录
-    'model_config_path' => config_path('admini'),
+    'model_config_path' => config_path('admin'),
 ];

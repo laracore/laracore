@@ -152,7 +152,8 @@ return [
          */
 
 
-         Laracore\Admin\AdminServiceProvider::class,
+         Laracore\Admin\ServiceProvider::class,
+         Laracore\Core\ServiceProvider::class,
 
         /*
          * Application Service Providers...
