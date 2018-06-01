@@ -10,6 +10,10 @@
      'name' => config('admin.name').':login',
      //前端路由
      'path'   => config('admin.uri').'/login',
+     // 数据模型，用作数据的 CRUD
+     'model'   => Laracore\Core\App\Models\User::class,
+     // 自定义前端 form 类型请求方法 此方法房子啊 models 里面
+     'handlerFormRequest' => 'getToken',
      // 默认布局
      'layout' =>[
         [
