@@ -154,7 +154,7 @@ return [
 
          Laracore\Admin\ServiceProvider::class,
          Laracore\Core\ServiceProvider::class,
-         // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
         /*
          * Application Service Providers...
