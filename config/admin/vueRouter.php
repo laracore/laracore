@@ -6,8 +6,16 @@
 return [
     [
         'path'  =>  config('admin.uri').'/login',
-        'name'  =>  config('admin.name').':login',
+        'name'  =>  config('admin.name').':as:login',
         'component' =>  ['template'=> '<cvi-login/>'],
+        "children" => [
+        ],
+        'originalChildren' => [
+            'model'  =>  [
+                'login',
+            ],
+            'component' =>  ['template'=> '<jvi-index/>'],
+        ]
     ],[
           'path'  =>  config('admin.uri'),
           'name'  =>  config('admin.name'),

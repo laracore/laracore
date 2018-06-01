@@ -40,7 +40,7 @@ return [
                       'style' => 'item',
                       'config' => [
                           'card' => [
-                              'title' => '系统参数',
+                              'title' => '表单演示',
                               'icon' => 'fa fa-cog',
                           ],
                           'item' => 'formSystem'
@@ -126,13 +126,13 @@ return [
               'config' => [
                   //全局唯一识别 不能有重复
                   'ref' => 'admin:system:form2',
-                  'labelWidth' => 90,
+                  'labelWidth' => 120,
               ],
               'item' => [
-                  'UPLOAD_FILE_SIZE' => [
+                  'DEMO_CHECKBOX' => [
                       'component' => 'checkbox',
-                      'label' => '文件上传大小',
-                      'placeholder' => '文件上传大小单位：MB',
+                      'label' => 'checkbox 多选框',
+                      'placeholder' => 'checkbox 多选框 demo',
                       'allSelect' => true,
                       'allSelectName' => '全国',
                       'options' => [
@@ -151,19 +151,29 @@ return [
                           [
                               'label' => 'demo2',
                               'title' => '测试2',
-                              'icon' => 'fa fa-medium',
                           ],
                       ]
                   ],
-                  'UPLOAD_IMAGE_SIZE' => [
-                      'component' => 'input',
-                      'label' => '图片上传大小',
-                      'placeholder' => '图片上传大小单位：MB',
-                  ],
-                  'ADMIN_PAGE_SIZE' => [
-                      'component' => 'input',
-                      'label' => '分页数量',
-                      'placeholder' => '分页时每页的记录数',
+                  'DEMO_SELECT' => [
+                      'component' => 'select',
+                      'label' => 'select 选择器',
+                      'placeholder' => 'select 选择器 demo',
+                      'multiple' => true,
+                      'options' => [
+                          [
+                              'value' => 'demo',
+                              'label' => '测试',
+                          ],
+                          [
+                              'value' => 'demo1',
+                              'label' => '测试1',
+                              'disabled' => true,
+                          ],
+                          [
+                              'value' => 'demo2',
+                              'label' => '测试2',
+                          ],
+                      ]
                   ]
               ]
          ]
