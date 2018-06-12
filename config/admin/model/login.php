@@ -48,6 +48,8 @@
     'item' => [
         'formLogin' => [
              'style' => 'form',
+             // 不需要获取 value
+             'isValue' => false,
              'config' => [
                  //全局唯一识别 不能有重复
                  'ref' => 'admin:system:form1',
