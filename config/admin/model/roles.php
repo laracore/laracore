@@ -10,5 +10,6 @@
      'name'  => config('admin.name').':roles',
      //前端路由
      'path'   => config('admin.uri').'/roles',
-
+     // 用户认证 默认 true
+     'auth' => false,
 ];

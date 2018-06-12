@@ -14,6 +14,8 @@
      'model'   => Laracore\Core\App\Models\User::class,
      // 自定义前端 form 类型请求方法 此方法房子啊 models 里面
      'handlerFormRequest' => 'login',
+     // 用户认证 默认 true
+     'auth' => false,
      // 默认布局
      'layout' =>[
         [

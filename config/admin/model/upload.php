@@ -10,5 +10,7 @@
      'name'  => config('admin.name').':upload',
      //前端路由路径
      'path'   => config('admin.uri').'/upload',
+     // 用户认证 默认 true
+     'auth' => false,
 
 ];
