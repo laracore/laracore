@@ -13,8 +13,6 @@ return [
      'path'   => config('admin.uri').'/system',
      // 数据模型，用作数据的 CRUD
      'model'   => Laracore\Admin\App\Models\Config::class,
-     // 用户认证 默认 true
-     'auth' => false,
      // 默认布局
      'layout' =>[
         [

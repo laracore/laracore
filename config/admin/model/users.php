@@ -10,7 +10,5 @@
      'name' => config('admin.name').':users',
      //前端路由
      'path'   => config('admin.uri').'/users',
-     // 用户认证 默认 true
-     'auth' => false,
 
 ];
