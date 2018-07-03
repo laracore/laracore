@@ -80,9 +80,8 @@ return [
                       'placeholder'        => '网站口号、宣传标语、一句话介绍',
                   ],
                   'WEB_SITE_LOGO' => [
-                      'component' => 'input',
+                      'component' => 'upload',
                       'label' => '网站LOGO',
-                      'type' => 'textarea',
                       'placeholder'        => '设置网站LOGO',
                   ],
                   'WEB_SITE_DESCRIPTION' => [
