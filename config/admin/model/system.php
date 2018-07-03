@@ -50,21 +50,21 @@ return [
             ],
         ]
      ],
-     // 索引项目
-     'item' => [
-         'formWeb' => [
-              'style' => 'form',
-              'config' => [
-                  //全局唯一识别 不能有重复
-                  'ref' => 'admin:system:form1',
-                  'labelWidth' => 80,
-              ],
-              'item' => [
-                  'TOGGLE_WEB_SITE' => [
-                      'component' => 'switch',
-                      'label' => '站点开关',
-                      'placeholder' => '站点关闭后将不能访问',
-                  ],
+    // 索引项目
+    'item' => [
+        'formWeb' => [
+            'style' => 'form',
+            'config' => [
+                //全局唯一识别 不能有重复
+                'ref' => 'admin:system:form1',
+                'labelWidth' => 80,
+            ],
+            'item' => [
+                'TOGGLE_WEB_SITE' => [
+                    'component' => 'switch',
+                    'label' => '站点开关',
+                    'placeholder' => '站点关闭后将不能访问',
+                ],
                   'WEB_SITE_TITLE' => [
                       'component' => 'input',
                       'label' => '网站标题',
@@ -78,12 +78,14 @@ return [
                       // 最大输入长度
                       'maxlength' => 50,
                       'placeholder'        => '网站口号、宣传标语、一句话介绍',
-                  ],
-                  'WEB_SITE_LOGO' => [
-                      'component' => 'upload',
-                      'label' => '网站LOGO',
-                      'placeholder'        => '设置网站LOGO',
-                  ],
+                ],
+                'WEB_SITE_LOGO' => [
+                    'component' => 'upload',
+                    'label' => '网站LOGO',
+                    'placeholder'  => '设置网站LOGO',
+                    'action' => url('api/upload'),
+                    'type' => 'image',
+                ],
                   'WEB_SITE_DESCRIPTION' => [
                       'component' => 'input',
                       'label' => '网站描述',
