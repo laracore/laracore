@@ -5,10 +5,11 @@
  */
 return [
     [
-        'path'  =>  config('admin.uri').'/login',
-        'name'  =>  config('admin.name').':as:login',
+        'path'  =>  '/login',
+        'name'  =>  ':as:login',
         'component' =>  ['template'=> '<cvi-login/>'],
         "children" => [
+
         ],
         'originalChildren' => [
             'model'  =>  [
@@ -17,8 +18,8 @@ return [
             'component' =>  ['template'=> '<jvi-index/>'],
         ]
     ],[
-          'path'  =>  config('admin.uri'),
-          'name'  =>  config('admin.name'),
+          'path'  =>  '',
+          'name'  =>  '',
           'component' =>  ['template'=> '<cvi-layout/>'],
           "children" => [
           ],
