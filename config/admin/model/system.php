@@ -2,7 +2,6 @@
 /**
  * 后台设置
  */
-
 return [
      // 菜单名称
      'title'   => '系统设置',
@@ -83,8 +82,11 @@ return [
                     'component' => 'upload',
                     'label' => '网站LOGO',
                     'placeholder'  => '设置网站LOGO',
-                    'action' => url('api/upload'),
-                    'type' => 'image',
+                    'action' => url('api/upload'), //上传的地址，必填
+                    'fileType' => 'image', //上传文件类型
+                    'showUploadList' => false, //是否显示已上传文件列表
+                    'type' => 'drag', //上传控件的类型，可选值为 select（点击选择），drag（支持拖拽）
+                    'format' => 'png,gif,jpg,jpeg,bmp', // 支持的文件类型，与 accept 不同的是，format 是识别文件的后缀名，accept 为 input 标签原生的 accept 属性，会在选择文件时过滤，可以两者结合使用
                 ],
                 'WEB_SITE_DESCRIPTION' => [
                     'component' => 'input',
