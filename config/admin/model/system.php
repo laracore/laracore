@@ -65,19 +65,19 @@ return [
                     'label' => '站点开关',
                     'placeholder' => '站点关闭后将不能访问',
                 ],
-                  'WEB_SITE_TITLE' => [
-                      'component' => 'input',
-                      'label' => '网站标题',
-                      // 最大输入长度
-                      'maxlength' => 50,
-                      'placeholder' => '网站标题前台显示标题',
-                  ],
-                  'WEB_SITE_SLOGAN' => [
-                      'component' => 'input',
-                      'label' => '网站口号',
-                      // 最大输入长度
-                      'maxlength' => 50,
-                      'placeholder'        => '网站口号、宣传标语、一句话介绍',
+                'WEB_SITE_TITLE' => [
+                    'component' => 'input',
+                    'label' => '网站标题',
+                    // 最大输入长度
+                    'maxlength' => 50,
+                    'placeholder' => '网站标题前台显示标题',
+                ],
+                'WEB_SITE_SLOGAN' => [
+                    'component' => 'input',
+                    'label' => '网站口号',
+                    // 最大输入长度
+                    'maxlength' => 50,
+                    'placeholder'        => '网站口号、宣传标语、一句话介绍',
                 ],
                 'WEB_SITE_LOGO' => [
                     'component' => 'upload',
@@ -86,43 +86,43 @@ return [
                     'action' => url('api/upload'),
                     'type' => 'image',
                 ],
-                  'WEB_SITE_DESCRIPTION' => [
-                      'component' => 'input',
-                      'label' => '网站描述',
-                      'type' => 'textarea',
-                      'placeholder' => '网站搜索引擎描述',
-                      'autosize' => [
-                          'minRows' => 2,
-                          'maxRows' => 5
-                      ],
-                  ],
-                  'WEB_SITE_KEYWORD' => [
-                      'component' => 'input',
-                      'label' => '网站关键字',
-                      'type' => 'textarea',
-                      'placeholder'        => '网站搜索引擎关键字',
-                  ],
-                  'WEB_SITE_COPYRIGHT' => [
-                      'component' => 'input',
-                      'label' => '版权信息',
-                      'type' => 'text',
-                      'placeholder'        => '设置在网站底部显示的版权信息，如“版权所有 © 2007-2017 某某科技”',
-                  ],
-                  'WEB_SITE_ICP' => [
-                      'component' => 'input',
-                      'label' => '网站备案号',
-                      'type' => 'text',
-                      'placeholder'        => '设置在网站底部显示的备案号，如“鲁ICP备1272117-1号”',
-                  ],
-                  'WEB_SITE_STATISTICS' => [
-                      'component' => 'input',
-                      'label' => '站点统计',
-                      'type' => 'textarea',
-                      'placeholder'        => '支持百度、Google、cnzz等所有Javascript的统计代码',
-                  ]
-              ]
-         ],
-         'formSystem' => [
+                'WEB_SITE_DESCRIPTION' => [
+                    'component' => 'input',
+                    'label' => '网站描述',
+                    'type' => 'textarea',
+                    'placeholder' => '网站搜索引擎描述',
+                    'autosize' => [
+                        'minRows' => 2,
+                        'maxRows' => 5
+                    ],
+                ],
+                'WEB_SITE_KEYWORD' => [
+                    'component' => 'input',
+                    'label' => '网站关键字',
+                    'type' => 'textarea',
+                    'placeholder'        => '网站搜索引擎关键字',
+                ],
+                'WEB_SITE_COPYRIGHT' => [
+                    'component' => 'input',
+                    'label' => '版权信息',
+                    'type' => 'text',
+                    'placeholder'        => '设置在网站底部显示的版权信息，如“版权所有 © 2007-2017 某某科技”',
+                ],
+                'WEB_SITE_ICP' => [
+                    'component' => 'input',
+                    'label' => '网站备案号',
+                    'type' => 'text',
+                    'placeholder'        => '设置在网站底部显示的备案号，如“鲁ICP备1272117-1号”',
+                ],
+                'WEB_SITE_STATISTICS' => [
+                    'component' => 'input',
+                    'label' => '站点统计',
+                    'type' => 'textarea',
+                    'placeholder' => '支持百度、Google、cnzz等所有Javascript的统计代码',
+                ]
+            ]
+        ],
+        'formSystem' => [
               'style' => 'form',
               'config' => [
                   //全局唯一识别 不能有重复
