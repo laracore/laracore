@@ -52,11 +52,13 @@
              'isValue' => false,
              'config' => [
                  //全局唯一识别 不能有重复
-                 'ref' => 'admin:system:form1',
+                 'ref' => 'admin:login:formLogin',
+                 // 修改提交按钮
                  'buttonSubmit' => [
                      'title' => '登录',
                      'style' => 'width:100%'
                  ],
+                 //隐藏充值按钮
                  'buttonReset' => [
                      'hidden' => true
                  ]
