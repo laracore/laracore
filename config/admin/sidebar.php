@@ -5,7 +5,7 @@
  */
 return [
     [
-        'model' => ['system']
+        'model' => 'system'
     ],
     [
         'title' => '媒体中心',

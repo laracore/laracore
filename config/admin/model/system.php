@@ -7,9 +7,9 @@ return [
      'title'   => '系统设置',
      'icon'   => 'fa fa-cog fa-spin',
      //前端路由名称  graphql 查询字段根据这个名称
-     'name'  => ':system',
+     'name'  => 'system',
      //前端路由
-     'path'   => '/system',
+     'path'   => 'system',
      // 数据模型，用作数据的 CRUD
      'model'   => Laracore\Admin\App\Models\Config::class,
      // 默认布局
