@@ -16,34 +16,38 @@ return [
      'layout' =>[
         [
             'style' => 'row',
-            'config' => config('admin.layout.row'),
+            // 'config' => config('admin.layout.row'),
             'content' => [
                 [
                    'style' => 'col',
-                   'config' => config('admin.layout.col'),
+                //    'config' => config('admin.layout.col'),
                    'content' => [
-                       'style' => 'item',
-                       'config' => [
-                           'card' => [
-                               'title' => '网站设置',
-                               'icon' => 'fa fa-cog',
-                           ],
-                           'item' => 'formWeb'
-                       ],
+                       [
+                            'style' => 'item',
+                            'config' => [
+                                'card' => [
+                                    'title' => '网站设置',
+                                    'icon' => 'fa fa-cog',
+                                ],
+                                'item' => 'formWeb'
+                            ],
+                       ]
                    ]
                ],
                [
                   'style' => 'col',
-                  'config' => config('admin.layout.col'),
+                //   'config' => config('admin.layout.col'),
                   'content' => [
-                      'style' => 'item',
-                      'config' => [
-                          'card' => [
-                              'title' => '表单演示',
-                              'icon' => 'fa fa-cog',
-                          ],
-                          'item' => 'formSystem'
-                      ],
+                      [
+                            'style' => 'item',
+                            'config' => [
+                                'card' => [
+                                    'title' => '表单演示',
+                                    'icon' => 'fa fa-cog',
+                                ],
+                                'item' => 'formSystem'
+                            ],
+                      ]
                   ]
               ],
             ],

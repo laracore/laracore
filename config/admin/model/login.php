@@ -31,14 +31,16 @@
                        ]
                    ],
                    'content' => [
-                       'style' => 'item',
-                       'config' => [
-                           'card' => [
-                               'title' => '欢迎登陆',
-                               'icon' => 'fa fa-arrow-circle-right',
-                           ],
-                           'item' => 'formLogin'
-                       ],
+                       [
+                            'style' => 'item',
+                            'config' => [
+                                'card' => [
+                                    'title' => '欢迎登陆',
+                                    'icon' => 'fa fa-arrow-circle-right',
+                                ],
+                                'item' => 'formLogin'
+                            ],
+                       ]
                    ]
                ],
            ]
