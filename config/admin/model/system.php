@@ -86,7 +86,7 @@ return [
                     'component' => 'upload',
                     'label' => '网站LOGO',
                     'placeholder'  => '设置网站LOGO',
-                    'action' => url('api/upload'), //上传的地址，必填
+                    // 'action' => url('api/upload'), //上传的地址，必填
                     'fileType' => 'image', //上传文件类型
                     'showUploadList' => false, //是否显示已上传文件列表
                     'type' => 'drag', //上传控件的类型，可选值为 select（点击选择），drag（支持拖拽）
