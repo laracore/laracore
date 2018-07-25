@@ -20,7 +20,7 @@
      'layout' =>[
         [
             'style' => 'row',
-            'config' => config('admin.layout.row'),
+            // 'config' => config('admin.layout.row'),
             'content' => [
                 [
                    'style' => 'col',
