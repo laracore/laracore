@@ -11,7 +11,7 @@
      //前端路由
      'path'   => 'login',
      // 数据模型，用作数据的 CRUD
-     'model'   => Laracore\Core\App\Models\User::class,
+     'model'   => Laracore\Admin\App\Models\User::class,
      // 自定义前端 form 类型请求方法 此方法房子啊 models 里面
      'handlerFormRequest' => 'login',
      // 用户认证 默认 true
