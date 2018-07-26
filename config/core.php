@@ -1,6 +1,17 @@
 <?php
 
 return [
+    // 	文件上传默认参数配置
+    'upload' => [
+        'action' => env('APP_URL', 'http://localhost').'/api/upload',//上传的地址，必填
+        'type' => 'drag',//上传控件的类型，可选值为 select（点击选择），drag（支持拖拽）
+        'showUploadList' => false, //是否显示已上传文件列表
+        'maxSize' => 2048,//文件大小限制，单位 kb
+        'format' => [
+            'file' => 'doc,txt',
+            'image' => 'png,gif,jpg,jpeg,bmp',
+        ] // 支持的文件类型，与 accept 不同的是，format 是识别文件的后缀名，accept 为 input 标签原生的 accept 属性，会在选择文件时过滤，可以两者结合使用
+    ],
     'layout' => [
         'col' => [
             //栅格的占位格数，可选值为0~24的整数，为 0 时，相当于display:none
