@@ -157,7 +157,7 @@ return [
                           ],
                       ]
                   ],
-                  'DEMO_SELECT' => [
+                'DEMO_SELECT' => [
                       'component' => 'select',
                       'label' => 'select 选择器',
                       'placeholder' => 'select 选择器 demo',
@@ -177,9 +177,12 @@ return [
                               'label' => '测试2',
                           ],
                       ]
-                  ]
-              ]
-         ]
-     ]
+                ],
+                'DEMO_TABLE' => [
+                    'component' => 'table',
+                ]
+            ]
+        ]
+    ]
 
 ];
