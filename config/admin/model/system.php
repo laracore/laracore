@@ -59,7 +59,7 @@ return [
             'style' => 'form',
             'config' => [
                 //全局唯一识别 不能有重复
-                'ref' => 'admin:system:form1',
+                // 'ref' => 'admin:system:form1',
                 'labelWidth' => 80,
             ],
             'item' => [
