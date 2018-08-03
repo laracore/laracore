@@ -121,7 +121,23 @@ return [
                     'label' => '站点统计',
                     'type' => 'textarea',
                     'placeholder' => '支持百度、Google、cnzz等所有Javascript的统计代码',
-                ]
+                ],
+                'submit' => [
+                    'component' => 'button',
+                    'title' => '提交',
+                    'type' => 'primary',
+                    'long' => true,
+                    'event' => 'formSubmit', // 触发前端事件 form 提交表单
+                    'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
+                ],
+                'reset' => [
+                    'component' => 'button',
+                    'title' => '重置',
+                    'type' => 'ghost',
+                    'long' => true,
+                    'event' => 'formReset', // 触发前端事件 form 重置表单
+                    'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
+                ],
             ]
         ],
         'formSystem' => [
@@ -180,7 +196,23 @@ return [
                 ],
                 'DEMO_TABLE' => [
                     'component' => 'table',
-                ]
+                ],
+                'submit' => [
+                    'component' => 'button',
+                    'title' => '提交',
+                    'type' => 'primary',
+                    'long' => true,
+                    'event' => 'formSubmit', // 触发前端事件 form 提交表单
+                    'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
+                ],
+                'reset' => [
+                    'component' => 'button',
+                    'title' => '重置',
+                    'type' => 'ghost',
+                    'long' => true,
+                    'event' => 'formReset', // 触发前端事件 form 重置表单
+                    'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
+                ],
             ]
         ]
     ]

@@ -55,15 +55,6 @@
              'config' => [
                  //全局唯一识别 不能有重复
                  'ref' => 'admin:login:formLogin',
-                 // 修改提交按钮
-                 'buttonSubmit' => [
-                     'title' => '登录',
-                     'style' => 'width:100%'
-                 ],
-                 //隐藏充值按钮
-                 'buttonReset' => [
-                     'hidden' => true
-                 ]
              ],
              'item' => [
                  'username' => [
@@ -81,6 +72,14 @@
                          'icon' => 'fa fa-lock'
                      ]
                  ],
+                'submit' => [
+                    'component' => 'button',
+                    'title' => '提交',
+                    'type' => 'primary',
+                    'long' => true,
+                    'event' => 'formSubmit', // 触发前端事件 form 提交表单
+                    'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
+                ],
              ]
         ],
     ]
