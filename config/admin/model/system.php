@@ -12,6 +12,8 @@ return [
      'path'   => 'system',
      // 数据模型，用作数据的 CRUD
      'model'   => Laracore\Admin\App\Models\Config::class,
+     // 数据读取模式 id 一般用户 table 数据库; key 用于 form 表单 key 数据库
+     'modelType' => 'key',
      // 默认布局
      'layout' =>[
         [
