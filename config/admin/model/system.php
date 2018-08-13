@@ -135,7 +135,7 @@ return [
                 'reset' => [
                     'component' => 'button',
                     'title' => '重置',
-                    'type' => 'ghost',
+                    'type' => 'default',
                     'long' => true,
                     'event' => 'formReset', // 触发前端事件 form 重置表单
                     'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
@@ -210,7 +210,7 @@ return [
                 'reset' => [
                     'component' => 'button',
                     'title' => '重置',
-                    'type' => 'ghost',
+                    'type' => 'default',
                     'long' => true,
                     'event' => 'formReset', // 触发前端事件 form 重置表单
                     'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
