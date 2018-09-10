@@ -90,6 +90,47 @@
                         ],
                     ]
                 ],
+                'agGrid' => [
+                    'component' => 'agGrid',
+                    'columns' => [
+                        [
+                            'title'=> 'ID',
+                            'key'=> 'id'
+                        ],
+                        [
+                            'title'=> '图片',
+                            'key'=> 'path'
+                        ],
+                        [
+                            'title'=> '文件名',
+                            'key'=> 'name'
+                        ],
+                        [
+                            'title'=> '文件大小',
+                            'key'=> 'size'
+                        ],
+                        [
+                            'title'=> '文件类型',
+                            'key'=> 'extension'
+                        ],
+                        [
+                            'title'=> '存储器',
+                            'key'=> 'disk'
+                        ],
+                        [
+                            'title'=> '下载次数',
+                            'key'=> 'download'
+                        ],
+                        [
+                            'title'=> '状态',
+                            'key'=> 'status'
+                        ],
+                        [
+                            'title'=> '时间',
+                            'key'=> 'created_at'
+                        ],
+                    ]
+                ],
                 'submit' => [
                     'component' => 'button',
                     'title' => '提交',
