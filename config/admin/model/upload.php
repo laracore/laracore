@@ -94,40 +94,40 @@
                     'component' => 'agGrid',
                     'columns' => [
                         [
-                            'title'=> 'ID',
-                            'key'=> 'id'
+                            'headerName'=> 'ID',
+                            'field'=> 'id'
                         ],
                         [
-                            'title'=> '图片',
-                            'key'=> 'path'
+                            'headerName'=> '图片',
+                            'field'=> 'path'
                         ],
                         [
-                            'title'=> '文件名',
-                            'key'=> 'name'
+                            'headerName'=> '文件名',
+                            'field'=> 'name'
                         ],
                         [
-                            'title'=> '文件大小',
-                            'key'=> 'size'
+                            'headerName'=> '文件大小',
+                            'field'=> 'size'
                         ],
                         [
-                            'title'=> '文件类型',
-                            'key'=> 'extension'
+                            'headerName'=> '文件类型',
+                            'field'=> 'extension'
                         ],
                         [
-                            'title'=> '存储器',
-                            'key'=> 'disk'
+                            'headerName'=> '存储器',
+                            'field'=> 'disk'
                         ],
                         [
-                            'title'=> '下载次数',
-                            'key'=> 'download'
+                            'headerName'=> '下载次数',
+                            'field'=> 'download'
                         ],
                         [
-                            'title'=> '状态',
-                            'key'=> 'status'
+                            'headerName'=> '状态',
+                            'field'=> 'status'
                         ],
                         [
-                            'title'=> '时间',
-                            'key'=> 'created_at'
+                            'headerName'=> '时间',
+                            'field'=> 'created_at'
                         ],
                     ]
                 ],
