@@ -103,11 +103,13 @@
                         ],
                         [
                             'headerName'=> '文件名',
-                            'field'=> 'name'
+                            'field'=> 'name',
+                            'editable'=> true
                         ],
                         [
                             'headerName'=> '文件大小',
-                            'field'=> 'size'
+                            'field'=> 'size',
+                            'editable'=> false
                         ],
                         [
                             'headerName'=> '文件类型',
