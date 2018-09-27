@@ -129,7 +129,8 @@
                             'headerName'=> '时间',
                             'field'=> 'created_at'
                         ],
-                    ]
+                    ],
+                    'onresize' => true,//根据窗口自动调整
                 ],
                 'submit' => [
                     'component' => 'button',
