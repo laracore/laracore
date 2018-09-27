@@ -129,7 +129,7 @@ return [
                     'title' => '提交',
                     'type' => 'primary',
                     'long' => true,
-                    'event' => 'formSubmit', // 触发前端事件 form 提交表单
+                    'event' => 'form-submit', // 触发前端事件 form 提交表单
                     'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
                 ],
                 'reset' => [
@@ -137,7 +137,7 @@ return [
                     'title' => '重置',
                     'type' => 'default',
                     'long' => true,
-                    'event' => 'formReset', // 触发前端事件 form 重置表单
+                    'event' => 'form-reset', // 触发前端事件 form 重置表单
                     'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
                 ],
             ]
@@ -204,7 +204,7 @@ return [
                     'title' => '提交',
                     'type' => 'primary',
                     'long' => true,
-                    'event' => 'formSubmit', // 触发前端事件 form 提交表单
+                    'event' => 'form-submit', // 触发前端事件 form 提交表单
                     'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
                 ],
                 'reset' => [
@@ -212,7 +212,7 @@ return [
                     'title' => '重置',
                     'type' => 'default',
                     'long' => true,
-                    'event' => 'formReset', // 触发前端事件 form 重置表单
+                    'event' => 'form-reset', // 触发前端事件 form 重置表单
                     'isValue' => false, //是否允许前端获取这个的 value 值 默认 true
                 ],
             ]
